@@ -7,11 +7,12 @@ DEV_SIGN = "Mystic Coders, LLC"
 DEV_APP_NAME = "mobileweather"
 DEV_APP_ID = 'com.mysticcoders.mobileweather'
 DEV_APP_DEVICE = 'iphone'
+USER_ROOT = "/your/root/path"
 
 TITANIUM_SDK_VERSION = '2.1.3.GA'
 IPHONE_SDK_VERSION = '6.0'
-BUILDER = "/Users/kinabalu/Library/Application Support/Titanium/mobilesdk/osx/#{TITANIUM_SDK_VERSION}/iphone/builder.py"
-PROJDIR = "/Users/kinabalu/Source/iphone/mobileweather/"
+BUILDER = "#{USER_ROOT}/Library/Application Support/Titanium/mobilesdk/osx/#{TITANIUM_SDK_VERSION}/iphone/builder.py"
+PROJDIR = "#{USER_ROOT}/Source/iphone/mobileweather/"
 
 # Run app in iOS simulator
 task :run do
